@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     react(), 
     tailwindcss(),
+    base: '/stock-portfolio/'
   ],
   server: {
     proxy: {
