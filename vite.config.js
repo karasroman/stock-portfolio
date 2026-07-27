@@ -6,9 +6,9 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(), 
-    tailwindcss(),
-    base: '/stock-portfolio/'
+    tailwindcss(),   
   ],
+  base: '/stock-portfolio/',
   server: {
     proxy: {
       // Fängt alle lokalen Anfragen ab, die mit /api/ beginnen
